@@ -1,5 +1,7 @@
 // Data Structure Design
 // Q3. All O`one Data Structure
+// Difficulty: Hard
+// Time O(1) Space O(n)
 // Link: https://leetcode.com/problems/all-oone-data-structure/description/?envType=problem-list-v2&envId=ssd-ssd3-data-structure-design
 
 class Node {
