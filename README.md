@@ -3,10 +3,10 @@
 A collection of my solutions to LeetCode algorithmic problems.
 
 ## 📊 Progress
-- **Total Solved:** 53
+- **Total Solved:** 54
 - **Easy:** 10
 - **Medium:** 33
-- **Hard:** 10
+- **Hard:** 11
 
 🚀 Goals
 - Master Dynamic Programming and Graph theory.
