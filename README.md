@@ -3,9 +3,9 @@
 A collection of my solutions to LeetCode algorithmic problems.
 
 ## 📊 Progress
-- **Total Solved:** 66
+- **Total Solved:** 67
 - **Easy:** 17
-- **Medium:** 37
+- **Medium:** 38
 - **Hard:** 12
 
 🚀 Goals
