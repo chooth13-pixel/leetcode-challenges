@@ -1,6 +1,6 @@
 # LeetCode Solutions 🚀
 
-A collection of my solutions to LeetCode algorithmic problems.
+A collection of my solutions to LeetCode algorithmic problems in TypeScript, Go and SQL.
 
 ## 📊 Progress
 - **Total Solved:** 86
