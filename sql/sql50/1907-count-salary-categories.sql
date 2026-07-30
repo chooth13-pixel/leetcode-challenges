@@ -1,6 +1,6 @@
-// Title: 1907. Count Salary Categories 
-// Problem Link: https://leetcode.com/problems/count-salary-categories/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Medium
+-- Title: 1907. Count Salary Categories 
+-- Problem Link: https://leetcode.com/problems/count-salary-categories/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Medium
 
 with t1 as (
     SELECT 'Low Salary' AS category

@@ -1,7 +1,7 @@
-// SQL I 
-// Title: Q3. Not Boring Movies 
-// Problem Link: https://leetcode.com/problems/not-boring-movies/description/?envType=problem-list-v2&envId=db-db1-sql-i 
-// Difficulty: Easy 
+-- SQL I 
+-- Title: Q3. Not Boring Movies 
+-- Problem Link: https://leetcode.com/problems/not-boring-movies/description/?envType=problem-list-v2&envId=db-db1-sql-i 
+-- Difficulty: Easy 
 
 select *
 from Cinema c

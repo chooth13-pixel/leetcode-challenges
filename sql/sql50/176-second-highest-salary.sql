@@ -1,6 +1,6 @@
-// Title: 176. Second Highest Salary 
-// Problem Link: https://leetcode.com/problems/second-highest-salary/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Medium
+-- Title: 176. Second Highest Salary 
+-- Problem Link: https://leetcode.com/problems/second-highest-salary/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Medium
 
 select (
     select 

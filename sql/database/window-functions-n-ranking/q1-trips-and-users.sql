@@ -1,7 +1,7 @@
-// Window Functions & Ranking 
-// Title: Q1. Trips and Users 
-// Problem Link: https://leetcode.com/problems/trips-and-users/description/?envType=problem-list-v2&envId=db-db4-window-functions-ranking 
-// Difficulty: Hard
+-- Window Functions & Ranking 
+-- Title: Q1. Trips and Users 
+-- Problem Link: https://leetcode.com/problems/trips-and-users/description/?envType=problem-list-v2&envId=db-db4-window-functions-ranking 
+-- Difficulty: Hard
 
 with Banned as (
     select users_id

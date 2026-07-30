@@ -1,6 +1,6 @@
-// Title: 1204. Last Person to Fit in the Bus
-// Problem Link: https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Medium
+-- Title: 1204. Last Person to Fit in the Bus
+-- Problem Link: https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Medium
 
 with t1 as (
     select

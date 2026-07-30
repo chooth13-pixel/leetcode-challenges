@@ -1,6 +1,6 @@
-// Title: 610. Triangle Judgement 
-// Problem Link: https://leetcode.com/problems/triangle-judgement/description/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Easy
+-- Title: 610. Triangle Judgement 
+-- Problem Link: https://leetcode.com/problems/triangle-judgement/description/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Easy
 
 select
 *,

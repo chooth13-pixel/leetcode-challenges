@@ -1,7 +1,7 @@
-// SQL II
-// Title: Q2. Department Highest Salary
-// Problem Link: https://leetcode.com/problems/department-highest-salary/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
-// Difficulty: Medium
+-- SQL II
+-- Title: Q2. Department Highest Salary
+-- Problem Link: https://leetcode.com/problems/department-highest-salary/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
+-- Difficulty: Medium
 
 with Highest as (
     select

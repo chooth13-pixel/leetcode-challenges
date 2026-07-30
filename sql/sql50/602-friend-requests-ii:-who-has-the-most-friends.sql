@@ -1,6 +1,6 @@
-// Title: 602. Friend Requests II: Who Has the Most Friends 
-// Problem Link: https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/description/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Medium
+-- Title: 602. Friend Requests II: Who Has the Most Friends 
+-- Problem Link: https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/description/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Medium
 
 select 
 requester_id id,

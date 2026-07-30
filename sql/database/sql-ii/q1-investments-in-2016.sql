@@ -1,7 +1,7 @@
-// SQL II
-// Title: Q1. Investments in 2016 
-// Problem Link: https://leetcode.com/problems/investments-in-2016/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
-// Difficulty: Medium
+-- SQL II
+-- Title: Q1. Investments in 2016 
+-- Problem Link: https://leetcode.com/problems/investments-in-2016/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
+-- Difficulty: Medium
 
 with latlon as (
     select 

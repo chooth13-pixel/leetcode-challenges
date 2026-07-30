@@ -1,6 +1,6 @@
-// Title: 1193. Monthly Transactions I
-// Problem Link: https://leetcode.com/problems/monthly-transactions-i/description/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Medium
+-- Title: 1193. Monthly Transactions I
+-- Problem Link: https://leetcode.com/problems/monthly-transactions-i/description/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Medium
 
 select
 CONCAT_WS('-', YEAR(trans_date), LPAD(MONTH(trans_date), 2, '0')) month,

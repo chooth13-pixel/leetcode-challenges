@@ -1,7 +1,7 @@
-// Filtering & Aggregation 
-// Title: Q4. Movie Rating 
-// Problem Link: https://leetcode.com/problems/movie-rating/description/?envType=problem-list-v2&envId=db-db3-grouping-aggregation 
-// Difficulty: Medium
+-- Filtering & Aggregation 
+-- Title: Q4. Movie Rating 
+-- Problem Link: https://leetcode.com/problems/movie-rating/description/?envType=problem-list-v2&envId=db-db3-grouping-aggregation 
+-- Difficulty: Medium
 
 select results from (
     select 

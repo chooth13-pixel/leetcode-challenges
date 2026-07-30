@@ -1,7 +1,7 @@
-// Filtering & Aggregation 
-// Title: Q2. Customers Who Bought All Products
-// Problem Link: https://leetcode.com/problems/customers-who-bought-all-products/description/?envType=problem-list-v2&envId=db-db3-grouping-aggregation
-// Difficulty: Medium
+-- Filtering & Aggregation 
+-- Title: Q2. Customers Who Bought All Products
+-- Problem Link: https://leetcode.com/problems/customers-who-bought-all-products/description/?envType=problem-list-v2&envId=db-db3-grouping-aggregation
+-- Difficulty: Medium
 
 select c.customer_id
 from Customer c

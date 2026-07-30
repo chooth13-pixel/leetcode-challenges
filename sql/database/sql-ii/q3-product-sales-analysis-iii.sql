@@ -1,7 +1,7 @@
-// SQL II
-// Title: Q3. Product Sales Analysis III 
-// Problem Link: https://leetcode.com/problems/product-sales-analysis-iii/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
-// Difficulty: Medium
+-- SQL II
+-- Title: Q3. Product Sales Analysis III 
+-- Problem Link: https://leetcode.com/problems/product-sales-analysis-iii/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
+-- Difficulty: Medium
 
 with FirstYearTable as (
     select

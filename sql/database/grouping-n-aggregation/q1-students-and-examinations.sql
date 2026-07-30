@@ -1,7 +1,7 @@
-// Filtering & Aggregation 
-// Title: Q1. Students and Examinations 
-// Problem Link: https://leetcode.com/problems/students-and-examinations/description/?envType=problem-list-v2&envId=db-db3-grouping-aggregation
-// Difficulty: Easy 
+-- Filtering & Aggregation 
+-- Title: Q1. Students and Examinations 
+-- Problem Link: https://leetcode.com/problems/students-and-examinations/description/?envType=problem-list-v2&envId=db-db3-grouping-aggregation
+-- Difficulty: Easy 
 
 select 
 st.student_id,

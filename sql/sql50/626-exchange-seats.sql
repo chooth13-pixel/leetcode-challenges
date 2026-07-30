@@ -1,6 +1,6 @@
-// Title: 626. Exchange Seats
-// Problem Link: https://leetcode.com/problems/exchange-seats/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Medium
+-- Title: 626. Exchange Seats
+-- Problem Link: https://leetcode.com/problems/exchange-seats/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Medium
 
 select
 row_number() over (

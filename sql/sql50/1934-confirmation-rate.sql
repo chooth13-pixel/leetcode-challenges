@@ -1,6 +1,6 @@
-// Title: 1934. Confirmation Rate 
-// Problem Link: https://leetcode.com/problems/confirmation-rate/description/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Medium
+-- Title: 1934. Confirmation Rate 
+-- Problem Link: https://leetcode.com/problems/confirmation-rate/description/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Medium
 
 select
 s.user_id,

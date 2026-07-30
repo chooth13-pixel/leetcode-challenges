@@ -1,6 +1,6 @@
-// Title: 185. Department Top Three Salaries 
-// Problem Link: https://leetcode.com/problems/department-top-three-salaries/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Hard 
+-- Title: 185. Department Top Three Salaries 
+-- Problem Link: https://leetcode.com/problems/department-top-three-salaries/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Hard 
 
 with t1 as (
     select

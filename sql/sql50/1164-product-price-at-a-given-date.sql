@@ -1,6 +1,6 @@
-// Title: 1164. Product Price at a Given Date 
-// Problem Link: https://leetcode.com/problems/product-price-at-a-given-date/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Medium
+-- Title: 1164. Product Price at a Given Date 
+-- Problem Link: https://leetcode.com/problems/product-price-at-a-given-date/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Medium
 
 with t1 as (
     select

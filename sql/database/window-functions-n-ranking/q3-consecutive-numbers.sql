@@ -1,7 +1,7 @@
-// Window Functions & Ranking 
-// Title: Q3. Consecutive Numbers 
-// Problem Link: https://leetcode.com/problems/consecutive-numbers/description/?envType=problem-list-v2&envId=db-db4-window-functions-ranking 
-// Difficulty: Medium 
+-- Window Functions & Ranking 
+-- Title: Q3. Consecutive Numbers 
+-- Problem Link: https://leetcode.com/problems/consecutive-numbers/description/?envType=problem-list-v2&envId=db-db4-window-functions-ranking 
+-- Difficulty: Medium 
 
 select 
 distinct num as ConsecutiveNums

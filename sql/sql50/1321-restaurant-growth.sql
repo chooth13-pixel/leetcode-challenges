@@ -1,6 +1,6 @@
-// Title: 1321. Restaurant Growth
-// Problem Link: https://leetcode.com/problems/restaurant-growth/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Medium
+-- Title: 1321. Restaurant Growth
+-- Problem Link: https://leetcode.com/problems/restaurant-growth/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Medium
 
 with t1 as (
     select

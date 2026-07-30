@@ -1,6 +1,6 @@
-// Title: 1731. The Number of Employees Which Report to Each Employee 
-// Problem Link: https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Easy
+-- Title: 1731. The Number of Employees Which Report to Each Employee 
+-- Problem Link: https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Easy
 
 select
 e2.employee_id,

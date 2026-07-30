@@ -1,6 +1,6 @@
-// Title: 1174. Immediate Food Delivery II 
-// Problem Link: https://leetcode.com/problems/immediate-food-delivery-ii/description/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Medium
+-- Title: 1174. Immediate Food Delivery II 
+-- Problem Link: https://leetcode.com/problems/immediate-food-delivery-ii/description/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Medium
 
 with t1 as (
     select 

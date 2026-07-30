@@ -1,6 +1,6 @@
-// Title: 1667. Fix Names in a Table 
-// Problem Link: https://leetcode.com/problems/fix-names-in-a-table/description/?envType=study-plan-v2&envId=top-sql-50
-// Difficulty: Easy
+-- Title: 1667. Fix Names in a Table 
+-- Problem Link: https://leetcode.com/problems/fix-names-in-a-table/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Easy
 
 select
 user_id,

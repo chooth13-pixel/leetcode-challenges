@@ -1,7 +1,7 @@
-// SQL II
-// Title: Q4. Human Traffic of Stadium 
-// Problem Link: https://leetcode.com/problems/human-traffic-of-stadium/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
-// Difficulty: Hard
+-- SQL II
+-- Title: Q4. Human Traffic of Stadium 
+-- Problem Link: https://leetcode.com/problems/human-traffic-of-stadium/description/?envType=problem-list-v2&envId=db-db5-sql-ii 
+-- Difficulty: Hard
 
 with t1 as (
     select

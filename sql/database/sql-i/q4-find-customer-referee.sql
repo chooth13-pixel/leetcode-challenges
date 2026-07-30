@@ -1,7 +1,7 @@
-// SQL I 
-// Title: Q4. Find Customer Referee 
-// Problem Link: https://leetcode.com/problems/find-customer-referee/description/?envType=problem-list-v2&envId=db-db1-sql-i 
-// Difficulty: Easy 
+-- SQL I 
+-- Title: Q4. Find Customer Referee 
+-- Problem Link: https://leetcode.com/problems/find-customer-referee/description/?envType=problem-list-v2&envId=db-db1-sql-i 
+-- Difficulty: Easy 
 
 select name
 from Customer

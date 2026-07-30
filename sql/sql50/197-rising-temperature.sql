@@ -1,6 +1,6 @@
-// Title: 197. Rising Temperature 
-// Problem Link: https://leetcode.com/problems/rising-temperature/description/?envType=study-plan-v2&envId=top-sql-50 
-// Difficulty: Easy
+-- Title: 197. Rising Temperature 
+-- Problem Link: https://leetcode.com/problems/rising-temperature/description/?envType=study-plan-v2&envId=top-sql-50 
+-- Difficulty: Easy
 
 select
 w1.id

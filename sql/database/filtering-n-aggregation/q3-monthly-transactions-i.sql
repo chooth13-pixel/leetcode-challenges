@@ -1,7 +1,7 @@
-// Filtering & Aggregation 
-// Title: Q3. Monthly Transactions I 
-// Problem Link: https://leetcode.com/problems/monthly-transactions-i/description/?envType=problem-list-v2&envId=db-db2-filtering-aggregation 
-// Difficulty: Medium
+-- Filtering & Aggregation 
+-- Title: Q3. Monthly Transactions I 
+-- Problem Link: https://leetcode.com/problems/monthly-transactions-i/description/?envType=problem-list-v2&envId=db-db2-filtering-aggregation 
+-- Difficulty: Medium
 
 select 
 DATE_FORMAT(trans_date, '%Y-%m') month, 
