@@ -1,72 +1,34 @@
 // Title: 1927. Sum Game 
 // Problem Link: https://leetcode.com/problems/sum-game/description
 // Difficulty: Medium 
-// Time O(n) Space O(n)
+// Time O(n) Space O(1)
 
-class Solution {
+class Solution
+{
+    public function sumGame(string $num): bool
+    {
+        $half = strlen($num) / 2;
+        $difference = 0;
+        $questionBalance = 0;
 
-    /**
-     * @param String $num
-     * @return Boolean
-     */
-    function sumGame($num) {
-        $sum = 0;
-        $questPos = [];
-        for ($i = 0; $i < strlen($num); $i++) {
-            if ($i < strlen($num) / 2){
-                $sum+=(int)$num[$i];
+        for ($i = 0; $i < $half; ++$i) {
+            $left = $num[$i];
+
+            if ($left === '?') {
+                $questionBalance--;
             } else {
-                $sum-=(int)$num[$i];
+                $difference += (int) $left;
             }
-            if ($num[$i] === '?'){
-                $questPos[] = $i;
+
+            $right = $num[$i + $half];
+
+            if ($right === '?') {
+                $questionBalance++;
+            } else {
+                $difference -= (int) $right;
             }
         }
-        if(count($questPos) === 1){
-            return true;
-        }
-        $questions = consolidateQuestion($questPos, strlen($num));
-        $sum = updateSum($sum, $questions);
-        return $sum !== 0;
-    }
-}
 
-function updateSum(int $sum, array $questions): int {
-    [$alice, $bob] = $questions;
-    if ($alice > 0 && $alice * 9 > abs($sum)) {
-        $sum += $alice * 9;
+        return $difference * 2 !== $questionBalance * 9;
     }
-
-    if ($alice < 0 && $sum < 0) {
-        $sum += $alice * 9;
-    }
-
-    if ($bob > 0 && $sum < 0) {
-        $sum += $bob * 9;
-    }
-
-    if ($bob < 0 && $sum <= abs($bob * 9)) {
-        $sum += $bob * 9;
-    }
-    return $sum;
-}
-
-function consolidateQuestion(array $questPos, int $len): array {
-    [$alice, $bob] = [0,0];
-    foreach ($questPos as $i => $pos) {
-        if ($pos < $len / 2){
-            if ($i % 2 === 0){
-                $alice++;
-            } else {
-                $bob++;
-            }
-        } else {
-            if ($i % 2 === 0){
-                $bob--;
-            } else {
-                $alice--;
-            }
-        }
-    }
-    return [$alice, $bob];
 }
