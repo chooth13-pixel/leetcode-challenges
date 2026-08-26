@@ -12,21 +12,29 @@ class Solution {
     function findCircleNum($isConnected) {
         $visited = [];
         $provinces = 0;
+
         foreach ($isConnected as $i => $edges){
             if ($visited[$i]) continue;
-            $this->dfs($i, $isConnected, $visited);
+            $visited[$i] = true;
+            $this->bfs($isConnected, $visited, $i);
             $provinces++;
         }
+
         return $provinces;
     }
 
-    private function dfs(int $i, array $isConnected, array &$visited){
-        if (empty($visited[$i])){
-            $visited[$i] = true;
-        }
-        foreach($isConnected[$i] as $j => $edge){
-            if ($edge === 0 || $visited[$j]) continue;
-            $this->dfs($j, $isConnected, $visited);
+    private function bfs(array $isConnected, array &$visited, int $node){
+        $next = [$node];
+        while (count($next) > 0){
+            $key = array_rand($next);
+            $node = $next[$key];
+            foreach ($isConnected[$node] as $j => $edge){
+                if ($edge === 1 && !$visited[$j]) {
+                    $next[] = $j;  
+                    $visited[$j] = true;
+                } 
+            }
+            unset($next[$key]);
         }
     }
 }
