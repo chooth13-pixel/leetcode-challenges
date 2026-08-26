@@ -20,7 +20,7 @@ class Solution {
         return $provinces;
     }
 
-     function dfs(int $i, array $isConnected, array &$visited){
+    private function dfs(int $i, array $isConnected, array &$visited){
         if (empty($visited[$i])){
             $visited[$i] = true;
         }
