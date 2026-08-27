@@ -5,7 +5,7 @@ A collection of my solutions to LeetCode algorithmic problems in TypeScript, Go 
 ## 📊 Progress
 - **Total Solved:** 136
 - **Easy:** 43
-- **Medium:** 74
+- **Medium:** 75
 - **Hard:** 18
 
 🚀 Goals
