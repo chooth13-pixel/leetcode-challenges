@@ -3,9 +3,9 @@
 A collection of my solutions to LeetCode algorithmic problems in TypeScript, Go and SQL.
 
 ## 📊 Progress
-- **Total Solved:** 138
+- **Total Solved:** 139
 - **Easy:** 43
-- **Medium:** 77
+- **Medium:** 78
 - **Hard:** 18
 
 🚀 Goals
