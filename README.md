@@ -1,6 +1,6 @@
 # LeetCode Solutions 🚀
 
-A collection of my solutions to LeetCode algorithmic problems in TypeScript, Go and SQL.
+A collection of my solutions to LeetCode algorithmic problems in TypeScript, Go, PHP and SQL.
 
 ## 📊 Progress
 - **Total Solved:** 139
